@@ -1,0 +1,40 @@
+.NavbarContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  gap: 10px;
+  background-image: url("/public/rmimage.jpg");
+  background-position: center;
+}
+
+.MainTitle {
+  color: black;
+  font-size: 1em;
+}
+
+.Search {
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+  border-radius: 5px;
+  padding: 5px;
+  width: 500px;
+  max-width: 100%;
+  border: none;
+  outline-color: black;
+}
+
+.SearchType {
+  background: none;
+  color: black;
+  background-color: white;
+  font-size: 1.8em;
+  border: none;
+  outline-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
