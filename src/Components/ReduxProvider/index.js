@@ -4,7 +4,7 @@ import reducers from "../../Redux/reducers";
 
 const store = createStore(reducers);
 const ReduxProvider = (props) => {
-  return <Provider store={store}>{props.children}</Provider>;
+  return <Provider store={store}>{props.children} </Provider>;
 };
 
 export default ReduxProvider;

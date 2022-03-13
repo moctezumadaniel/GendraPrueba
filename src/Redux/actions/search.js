@@ -10,3 +10,31 @@ export const changeSearch = (search) => {
     search,
   };
 };
+
+export const changeStatus = (status) => {
+  return {
+    type: "CHANGE_STATUS",
+    status,
+  };
+};
+
+export const changeSpecies = (species) => {
+  return {
+    type: "CHANGE_SPECIES",
+    species,
+  };
+};
+
+export const changeType = (characterType) => {
+  return {
+    type: "CHANGE_TYPE",
+    characterType,
+  };
+};
+
+export const changeGender = (gender) => {
+  return {
+    type: "CHANGE_GENDER",
+    gender,
+  };
+};

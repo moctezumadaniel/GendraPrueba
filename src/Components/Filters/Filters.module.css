@@ -1,0 +1,18 @@
+.FiltersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em;
+  padding: 10px;
+}
+
+.FormControl {
+  width: 150px;
+  max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  .FormControl {
+    width: 100%;
+  }
+}
