@@ -16,18 +16,35 @@
   font-size: 1em;
 }
 
-.Search {
+.SearchContainer {
+  display: flex;
   background-color: white;
   color: black;
-  font-size: 1.5em;
   border-radius: 5px;
-  padding: 5px;
   width: 500px;
   max-width: 100%;
   border: none;
   outline-color: black;
 }
 
+.SearchBar {
+  display: flex;
+  color: black;
+  font-size: 1.5em;
+  padding: 5px;
+  border: none;
+  outline-color: black;
+  min-width: 100px;
+  width: 100%;
+}
+
+.SearchButton {
+  background: none;
+  outline-color: black;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
 .SearchType {
   background: none;
   color: black;
